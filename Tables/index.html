@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        a:link,
+        a:visited {
+            background-color: lightblue;
+            color: black;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-round;
+            font-size: medium;
+        }
+
+        a:hover,
+        a:active {
+            background-color: lightcoral;
+        }
+
+        table,
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        table {
+            margin: 20px auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>
+            <center>Tables</center>
+        </h1>
+
+
+        <h2>
+            <nav>
+                <a href="index.html" target="_self">Table Basics</a>
+                <a href="styling-tables.html" target="_blank">Styling Tables</a>
+                <a href="calendar.html" target="_blank">Creating a Calendar</a>
+            </nav>
+        </h2>
+
+        <h1>
+            <center>Table Basics</center>
+        </h1>
+
+        <table style="width:80%">
+
+            <!--   <caption>Anna's Table</caption> -->
+
+            <tr>
+                <th></th>
+                <th>Column1</th>
+                <th>Column2</th>
+                <th>Column3</th>
+                <th>Column4</th>
+            </tr>
+
+            <tr align="center">
+                <th rowspan="3">Row 1</th>
+                <td colspan="2">2</td>
+                <td>3</td>
+                <td>4</td>
+
+            </tr>
+
+            <tr align="center">
+                <th colspan="2">7</th>
+                <td>8</td>
+                <td>9</td>
+
+            </tr>
+
+            <tr align="center">
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+            </tr>
+
+            <tr align="center">
+                <th>Row 2</th>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+            </tr>
+
+            <tr align="center">
+                <th>Row 4</th>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

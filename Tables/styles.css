@@ -1,0 +1,49 @@
+body  { background-color:ivory;
+        font-family: sans-serif;
+        color: black; }
+
+h1, h2 { 
+    color: olivedrab;
+    text-align: center; }
+
+h3 {    color: crimson;
+        text-align: center;}
+
+.container { width: 80%;
+            margin: 10px auto;
+            padding: 20px; 
+            border: 3px solid black}    
+
+a{
+    color: rgb(168, 111, 5);
+    font-size: 25px;
+    padding: 10px;
+}
+
+a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color:purple;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+nav {
+  text-align: center;
+}

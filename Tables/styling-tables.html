@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        a:link,
+        a:visited {
+            background-color: lightblue;
+            color: black;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-round;
+            font-size: medium;
+        }
+
+        a:hover,
+        a:active {
+            background-color: lightcoral;
+        }
+
+        nav {
+            text-align: center;
+        }
+
+        table {
+            width: 85%;
+            margin: 10%;
+            border: 2px navy;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid navy;
+            padding: 15px;
+        }
+
+        th {
+            color: navy;
+            background-color: thistle;
+        }
+
+        tr:hover {
+            background: lightsalmon
+        }
+    </style>
+
+    <title>Styling Tables</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>
+            <center>Tables</center>
+        </h1>
+
+
+        <h2>
+            <nav>
+                <a href="index.html" target="_self">Table Basics</a>
+                <a href="styling-tables.html" target="_blank">Styling Tables</a>
+                <a href="calendar.html" target="_blank">Creating a Calendar</a>
+            </nav>
+        </h2>
+
+        <h1>
+            <center>Styling Tables</center>
+        </h1>
+
+        <table style="width:80%">
+
+
+            <tr align="center">
+                <th background-color:lightsalmon;></th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+
+            <tr align="center">
+                <th>7:00 AM</th>
+                <td></td>
+                <td>Walk the Dog</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Walk the Dog</td>
+                <td></td>
+            </tr>
+
+            <tr align="center">
+                <th>8:00 AM</th>
+                <td rowspan="2">Web-105</td>
+                <td></td>
+                <td></td>
+                <td rowspan="2">Web-105</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr align="center">
+                <th>9:00 AM</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+
+            <tr align="center">
+                <th>10:00 AM</th>
+                <td></td>
+                <td></td>
+                <td>Work out</td>
+                <td></td>
+                <td>Work out</td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr align="center">
+                <th>11:00 AM</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr align="center">
+                <th>12:00 PM</th>
+                <td>Lunch</td>
+                <td>Lunch</td>
+                <td>Lunch</td>
+                <td>Lunch</td>
+                <td>Lunch</td>
+                <td>Lunch</td>
+                <td>Lunch</td>
+            </tr>
+
+            <tr align="center">
+                <th>1:00 PM</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr align="center">
+                <th>2:00 PM</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr align="center">
+                <th>3:00 PM</th>
+                <td rowspan="2">Dinner</td>
+                <td rowspan="2">Dinner</td>
+                <td rowspan="2">Dinner</td>
+                <td rowspan="2">Dinner</td>
+                <td rowspan="2">Dinner</td>
+                <td rowspan="2">Dinner</td>
+                <td rowspan="2">Dinner</td>
+            </tr>
+
+            <tr align="center">
+                <th>4:00 PM</th>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
