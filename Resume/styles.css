@@ -1,0 +1,185 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/*  Left Blank   */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* -------------End of Meyer Web Reset --------*/
+
+/* ---------------- Variables --------------*/
+
+:root {
+--light-blue : #83b5d4; 
+--ivory : rgb(255, 255, 240);
+--white :  #FFFFFF; 
+--accent-color :  #FFC107;
+--black : #0e0d0d;
+--primary-text : #212121; 
+--secondary-text : #757575; 
+--divider-color : #0e0d0d; 
+--purple : #673AB7;
+}
+
+/*  ------------- End of Variables  -----------*/
+
+/*  -----------  Page Layout Elements  ------*/
+
+/* * {
+  overflow:auto;
+ } */
+
+body  { background-color: var(--ivory);
+        font-family: 'Montserrat', sans-serif;
+        box-sizing: border-box;
+        color: black; 
+      }
+
+h1, h2 { 
+      color: var(--black);
+      font-family: 'Montserrat', sans-serif;
+      text-align: center; 
+      font-size: 40px;
+      padding-top: 10px;
+      }
+
+h3 {
+  display: inline;
+}
+h4 {
+  text-align: right;
+  margin-right: 3em;
+}
+
+img {
+  float: left;
+  margin: 3px;
+}
+
+nav {
+  text-align: right;
+  padding: 10px;
+  margin: 10px;
+  overflow: auto;
+}
+
+header {
+  text-align: center;
+}
+
+aside {
+  width: 85%;
+  margin: auto;
+  padding: auto;
+  float: right;
+  font-size: medium;
+  box-sizing: border-box;
+}
+
+aside p {
+  display: inline;
+  }
+
+p {
+  font-size: 15px;
+}
+
+/*  ------- End of Page Layout Elements  -------- */
+
+/*  ----------  Class Elements  ----------*/
+
+.category {
+  width: 25%;
+  padding: 1px;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  border-width: 1px;
+  border-bottom: solid var(--light-blue);
+  padding: 5px; 
+  overflow: auto;
+  } 
+
+.container-top {
+  width: 90%;
+  margin: auto;
+  border: solid var(--light-blue);
+  padding-top: 15px;
+  background-color: var(--light-blue);
+  text-align: center;
+  overflow: auto;
+}
+
+.container-bottom {
+  width: 90%;
+  margin: auto;
+  /* border: solid var(--light-blue);
+  padding: 15px; */
+  background-color: var(--light-blue);
+  text-align: center;
+  overflow: auto;
+}
+
+.li-inline {display: inline;}
+
+.div-inside {
+  width: 75%;
+}
+
+.footer {
+  color: var(--light-blue);
+  font-size: 1em;
+}
+
+.footer p{ font-size: 1em;
+}
+
+.clearfix {
+  overflow: auto;
+}
+/*  ----------  End of Class Elements  ----------*/
