@@ -1,0 +1,241 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    padding: 5px;
+}
+
+img {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+}
+
+body {
+    font-family: verdana, sans-serif;
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+h2 {
+    color: rgb(82, 112, 82);
+    font-size: 18px;
+}
+
+h4 {
+    color: rgb(82, 112, 82);
+    font-size: 14px;
+    text-align: center;
+}
+
+
+header,
+footer {
+    background:#d5e9e4;
+    min-height: 70px;
+    padding: 20px;
+    color: #5c007a;
+}
+
+nav {
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+/* 
+a {
+    padding: 3px 10px;
+    border-radius: 10px;
+    background: #5c007a;
+    color: #ffffff;
+    text-decoration: none;
+    border-color: 2px solid darkseagreen;
+    line-height: 3;
+} */
+
+a:link, a:visited {
+    box-sizing: border-box;
+    padding: 3px 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(241, 214, 55);
+    background-color: palegoldenrod;
+    color: black;
+    text-align: center;
+    font-size: 17px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:active {
+    background-color: rgb(198, 164, 243);
+}
+
+a:hover {
+    background: #f1d69b;
+    color: black;
+}
+
+.container {
+    max-width: 1260px;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 3px solid navy;
+}
+
+
+  /* custom styles here! */
+        /* ROWS ARE CRITICAL! THEY RESET THE FLOW OF THE PAGE!!! */
+
+        body {
+            background: rgb(228, 218, 174);
+        }
+
+        .row {
+            border: 3px  red;
+            /* border: 3px solid red; */
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        [class*="col-"] {
+            float: left;
+            padding: 15px;
+            /* border: 3px solid rgb(223, 167, 63); */
+        }
+
+        /* For mobile phones: */
+
+        [class*="col-"] {
+            width: 100%;
+        }
+
+        @media only screen and (min-width: 630px) {
+
+            /* For tablets: */
+            body {
+                background: #ede2f0;
+            }
+
+            .col-m-1 {
+                width: 8.33%;
+            }
+
+            .col-m-2 {
+                width: 16.66%;
+            }
+
+            .col-m-3 {
+                width: 25%;
+            }
+
+            .col-m-4 {
+                width: 33.33%;
+            }
+
+            .col-m-5 {
+                width: 41.66%;
+            }
+
+            .col-m-6 {
+                width: 50%;
+            }
+
+            .col-m-7 {
+                width: 58.33%;
+            }
+
+            .col-m-8 {
+                width: 66.66%;
+            }
+
+            .col-m-9 {
+                width: 75%;
+            }
+
+            .col-m-10 {
+                width: 83.33%;
+            }
+
+            .col-m-11 {
+                width: 91.66%;
+            }
+
+            .col-m-12 {
+                width: 100%;
+            }
+        }
+
+        @media only screen and (min-width: 900px) {
+
+            /* For desktop: */
+            body {
+                background: #d5e9e4;
+            }
+
+            .col-1 {
+                width: 8.33%;
+            }
+
+            .col-2 {
+                width: 16.66%;
+            }
+
+            .col-3 {
+                width: 25%;
+            }
+
+            .col-4 {
+                width: 33.33%;
+            }
+
+            .col-5 {
+                width: 41.66%;
+            }
+
+            .col-6 {
+                width: 50%;
+            }
+
+            .col-7 {
+                width: 58.33%;
+            }
+
+            .col-8 {
+                width: 66.66%;
+            }
+
+            .col-9 {
+                width: 75%;
+            }
+
+            .col-10 {
+                width: 83.33%;
+            }
+
+            .col-11 {
+                width: 91.66%;
+            }
+
+            .col-12 {
+                width: 100%;
+            }
+
+            #left-nav {
+                padding-left: 4%;
+            }
+
+            #right-nav {
+                padding-right: 4%;
+            }
+        }
